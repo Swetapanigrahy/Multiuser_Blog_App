@@ -13,7 +13,7 @@ const themeSlice = createSlice({
             state.theme = state.theme === 'light' ? 'dark' : 'light';
         },
         changeColorPalette: (state, action) => {
-            state.colorPalette = action.payload; // Change color palette
+            state.colorPalette = action.payload; 
         },
     },
 });
