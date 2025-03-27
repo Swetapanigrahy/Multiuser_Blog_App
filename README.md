@@ -32,7 +32,7 @@ The Blog App is a web application that allows users to create, edit, and delete 
     ```
 4. Start the development server:
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## Usage
