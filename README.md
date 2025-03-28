@@ -16,6 +16,11 @@ The Blog App is a web application that allows users to create, edit, and delete 
 - Read individual blog posts
 - Responsive design
 
+## Tech Stack
+- Frontend: React.js, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB
+
 ## Installation
 
 1. Clone the repository:
