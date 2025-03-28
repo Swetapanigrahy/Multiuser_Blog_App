@@ -22,8 +22,8 @@ The Blog App is a web application that allows users to create, edit, and delete 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: Google OAuth
-- **Deployment**: Vercel
-- 
+
+
 ## Installation
 
 1. Clone the repository:
