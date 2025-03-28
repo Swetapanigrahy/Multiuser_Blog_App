@@ -20,7 +20,7 @@ The Blog App is a web application that allows users to create, edit, and delete 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Blog_App.git
+    https://github.com/Swetapanigrahy/Blog_App.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -37,14 +37,12 @@ The Blog App is a web application that allows users to create, edit, and delete 
 
 ## Usage
 
-1. Register for an account or log in if you already have one.
 2. Create a new blog post by clicking on the "New Post" button.
+3. Switch between light and dark themes using the theme toggle feature.
+4. Log in using your Google account for a seamless authentication experience.
 3. Edit or delete your existing posts from the post list.
 4. View and read posts created by other users.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
 
