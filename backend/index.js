@@ -29,7 +29,7 @@ const app = express();
 app.use(cookieParser()); // Enable Cookie Parsing
 app.use(
   cors({
-    origin: "blog-app-c7o1-4pxvszk1d-sweta-panigrahys-projects.vercel.app", // Allow frontend URL
+    origin: "https://blog-app-c7o1.vercel.app/", // Allow frontend URL
     methods: "GET, POST, PUT, DELETE",
     credentials: true, // Allow cookies & authentication headers
   })
