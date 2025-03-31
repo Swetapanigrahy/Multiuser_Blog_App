@@ -49,10 +49,9 @@ app.use('/api/projects', projectRoutes);
 
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
-
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../frontend/dist' ,'index.html'));
-});
+app.get('/' , (req,res) => {
+  res.redirect(process.env.FRONTEND_URL) ;
+}); 
 
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
