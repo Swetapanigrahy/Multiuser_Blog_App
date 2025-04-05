@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import Home from "./pages/Home";
 import About from "./pages/About";
-import SignIn from "./pages/Signin";
+import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Project";
 import SignUp from "./pages/SignUp";
