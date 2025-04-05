@@ -18,7 +18,7 @@ export default function OAuth() {
         provider.setCustomParameters({ prompt: 'select_account' })
         try {
             const resultsFromGoogle = await signInWithPopup(auth, provider)
-            const res = await fetch('/api/auth/google', {
+            const res = await fetch('https://multiuser-blog-app.onrender.com/api/auth/google', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -26,11 +26,11 @@ export default function OAuth() {
                     email: resultsFromGoogle.user.email,
                     googlePhotoUrl: resultsFromGoogle.user.photoURL,
                 }),
-                })
+            })
             const data = await res.json()
             if (res.ok){
                 dispatch(signInSuccess(data))
-                navigate('/')
+                navigate('https://your-render-deploy-link.com/')
             }
         } catch (error) {
             console.log(error);

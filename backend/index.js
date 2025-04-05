@@ -7,8 +7,14 @@ import postRoutes from './routes/post.route.js';
 import commentRoutes from './routes/comment.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
+const cors = require('cors');
 
 dotenv.config();
+app.use(cors({
+  origin: 'https://multiuser-blog-app.onrender.com', // Replace with your Render deploy link
+  credentials: true,
+}));
+
 
 mongoose
   .connect(process.env.MONGO_URI)
