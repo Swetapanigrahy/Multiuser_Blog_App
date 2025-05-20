@@ -27,4 +27,3 @@ import Project from '../models/project.model.js';
     res.status(500).json({ message: "Failed to create project" });
   }
 };
-

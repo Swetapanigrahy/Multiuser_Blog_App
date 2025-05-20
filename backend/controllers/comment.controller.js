@@ -1,4 +1,6 @@
 
+
+
 import Comment from '../models/comment.model.js';
 
 export const createComment = async (req, res, next) => {
@@ -98,14 +100,6 @@ export const deleteComment = async (req, res, next) => {
     next(error);
   }
 };
-
-
-
-
-
-
-
-
 
 export const getcomments = async (req, res, next) => {
   if (!req.user.isAdmin)

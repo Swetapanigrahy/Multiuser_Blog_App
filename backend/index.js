@@ -5,19 +5,15 @@ import userRoutes from './routes/user.route.js';
 import authRoutes from './routes/auth.route.js';
 import postRoutes from './routes/post.route.js';
 import commentRoutes from './routes/comment.route.js';
+import projectRoutes from './routes/project.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
-const cors = require('cors');
+import cors from 'cors';
 
 dotenv.config();
-app.use(cors({
-  origin: 'https://multiuser-blog-app.onrender.com', // Replace with your Render deploy link
-  credentials: true,
-}));
-
 
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO)
   .then(() => {
     console.log('MongoDb is connected');
   })
@@ -28,6 +24,11 @@ mongoose
 const __dirname = path.resolve();
 
 const app = express();
+
+app.use(cors({
+  origin: 'http://localhost:5173', // allow your frontend origin
+  credentials: true, // if you use cookies/auth
+}));
 
 app.use(express.json());
 app.use(cookieParser());
@@ -40,11 +41,12 @@ app.use('/api/user', userRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/post', postRoutes);
 app.use('/api/comment', commentRoutes);
+app.use('/api/projects', projectRoutes);
 
-app.use(express.static(path.join(__dirname, "/frontend/dist" )));
+app.use(express.static(path.join(__dirname, '/frontend/dist')));
 
-app.get('*', (_, res) => {
-  res.sendFile(path.resolve(__dirname, "frontend" ,  "dist" , "index.html"));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'));
 });
 
 app.use((err, req, res, next) => {
@@ -56,3 +58,7 @@ app.use((err, req, res, next) => {
     message,
   });
 });
+
+
+
+
