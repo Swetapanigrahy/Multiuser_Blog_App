@@ -1,6 +1,3 @@
-
-:
-
 📝 Multiuser Blog App
 A full-stack blogging platform enabling multiple users to create, edit, and manage blog posts with authentication and role-based access control.
 
@@ -125,3 +122,4 @@ Portfolio
 This project is licensed under the MIT License.
 
 🌟 Acknowledgements
+Thanks to the open-source community for the resources and inspiration.
