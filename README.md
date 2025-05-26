@@ -62,20 +62,19 @@ Follow these steps to set up and run the Multiuser Blog App on your local machin
 
 2. **Install Backend Dependencies**
     ```bash
-    cd server
+    cd backend
     npm install
     ```
-
 3. **Install Frontend Dependencies**
     ```bash
-    cd ../client
+    cd ../frontend
     npm install
     ```
 
 4. **Configure Environment Variables**
-    - Create a `.env` file in the `server` directory.
+    - In the `backend` directory, create a `.env` file.
     - Add your MongoDB connection string and JWT secret. Example:
-      ```
+      ```env
       MONGO_URI=your_mongodb_connection_string
       JWT_SECRET=your_jwt_secret
       ```
@@ -83,17 +82,16 @@ Follow these steps to set up and run the Multiuser Blog App on your local machin
 5. **Run the Application**
     - **Start the backend server:**
       ```bash
-      cd ../server
+      cd ../backend
       npm run dev
       ```
     - **Start the frontend client:**
       ```bash
-      cd ../client
-      npm start
-      ```
+    cd ../frontend
+    npm run dev
+    ```
 
-6. **Access the App**
-    - Open your browser and go to [http://localhost:3000](http://localhost:3000)
+    6. **Access the App**
+        - Open your browser and go to [http://localhost:3000](http://localhost:3000)
 
----
 
