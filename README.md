@@ -25,68 +25,43 @@ A secure, full-stack blogging platform where multiple users can register, login,
 
 ---
 
-## 🚀 Getting Started
 
-### Clone the repo
+### 🚀 Clone & Setup the Project
 
-```bash
-git clone https://github.com/Swetapanigrahy/Multiuser_Blog_App.git
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Swetapanigrahy/Multiuser_Blog_App.git
+Navigate into the project directory
+
+bash
+Copy
+Edit
 cd Multiuser_Blog_App
-Backend Setup
+Setup the backend
+
 bash
 Copy
 Edit
 cd backend
 npm install
-# Create a .env file with:
-# MONGO_URI=your_mongodb_connection_string
-# JWT_SECRET=your_jwt_secret_key
+Create a .env file inside the backend folder and add the following:
+
+ini
+Copy
+Edit
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+Start the backend server
+
+bash
+Copy
+Edit
 npm start
-Frontend Setup
+Setup and start the frontend
+
 bash
 Copy
 Edit
 cd ../frontend
 npm install
 npm start
-📂 Project Structure
-css
-Copy
-Edit
-Multiuser_Blog_App/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── redux/
-└── README.md
-💡 What I Learned
-Designing and building secure RESTful APIs
-
-Implementing JWT authentication and protecting routes
-
-State management with Redux
-
-Connecting React frontend with Node.js backend
-
-Working with MongoDB and Mongoose for data modeling
-
-👩‍💻 Author
-Sweta Panigrahy
-GitHub | LinkedIn
-
-📄 License
-This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
-
----
-
-Just this way — clear, professional, and visually neat! Want me to help add screenshots or live demo links?
