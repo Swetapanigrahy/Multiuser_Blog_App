@@ -42,52 +42,58 @@ Edit
 
 ---
 
-## ⚙️ Getting Started
+
+## ⚙️ Setup & Installation
+
+Follow these steps to set up and run the Multiuser Blog App on your local machine:
 
 ### Prerequisites
-- Node.js (v14+)
-- MongoDB (local or cloud)
-- Git
+- **Node.js** (v14 or higher)
+- **MongoDB** (local instance or cloud, e.g., MongoDB Atlas)
+- **Git**
 
-### Installation
+### Steps
 
-```bash
-# Clone the repo
-git clone https://github.com/Swetapanigrahy/Multiuser_Blog_App.git
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/Swetapanigrahy/Multiuser_Blog_App.git
+    cd Multiuser_Blog_App
+    ```
 
-# Navigate to server folder and install dependencies
-cd Multiuser_Blog_App/server
-npm install
+2. **Install Backend Dependencies**
+    ```bash
+    cd server
+    npm install
+    ```
 
-# Navigate to client folder and install dependencies
-cd ../client
-npm install
-Running the Application
-bash
-Copy
-Edit
-# Start backend server
-cd Multiuser_Blog_App/server
-npm run dev
+3. **Install Frontend Dependencies**
+    ```bash
+    cd ../client
+    npm install
+    ```
 
-# Start frontend client
-cd ../client
-npm start
-Open your browser at http://localhost:3000 to view the app.
+4. **Configure Environment Variables**
+    - Create a `.env` file in the `server` directory.
+    - Add your MongoDB connection string and JWT secret. Example:
+      ```
+      MONGO_URI=your_mongodb_connection_string
+      JWT_SECRET=your_jwt_secret
+      ```
 
-📈 Future Improvements
-Add comment and like features on posts.
+5. **Run the Application**
+    - **Start the backend server:**
+      ```bash
+      cd ../server
+      npm run dev
+      ```
+    - **Start the frontend client:**
+      ```bash
+      cd ../client
+      npm start
+      ```
 
-Implement notifications for new posts.
+6. **Access the App**
+    - Open your browser and go to [http://localhost:3000](http://localhost:3000)
 
-Enhance UI with animations and themes.
+---
 
-Add role-based permissions (admin, editor).
-
-Deploy on cloud platforms with CI/CD pipelines.
-
-🤝 Contribution
-Feel free to fork the repository, raise issues, and submit pull requests. Contributions and feedback are welcome!
-
-📄 License
-This project is licensed under the MIT License.
