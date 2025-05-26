@@ -26,42 +26,42 @@ A secure, full-stack blogging platform where multiple users can register, login,
 ---
 
 
-### 🚀 Clone & Setup the Project
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/Swetapanigrahy/Multiuser_Blog_App.git
-Navigate into the project directory
+2. Navigate into the project directory:
 
 bash
 Copy
 Edit
 cd Multiuser_Blog_App
-Setup the backend
+3. Install backend dependencies:
 
 bash
 Copy
 Edit
 cd backend
 npm install
-Create a .env file inside the backend folder and add the following:
+4. Create a .env file inside the backend folder and add the following:
 
-ini
+env
 Copy
 Edit
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-Start the backend server
+*5. Start the backend server:*
 
 bash
 Copy
 Edit
 npm start
-Setup and start the frontend
+6. Install frontend dependencies:
 
 bash
 Copy
 Edit
 cd ../frontend
 npm install
+7. Start the frontend server:
+
+bash
+Copy
+Edit
 npm start
