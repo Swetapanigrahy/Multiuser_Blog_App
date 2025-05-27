@@ -8,11 +8,11 @@ This project demonstrates proficiency in modern web development technologies, ba
 ---
 
 ## 🛠️ Technology Stack
-- **Frontend:** React.js, CSS3, HTML5
+- **Frontend:** React.js, Tailwind CSS, Redux Toolkit
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB (NoSQL)
-- **Authentication:** JWT (JSON Web Tokens)
-- **Deployment:** (Mention if deployed on any platform e.g., Heroku, Vercel)
+- **Database:** MongoDB (Mongoose ODM)
+- **Authentication:** JWT (JSON Web Tokens), bcrypt
+- **Real-time:** Socket.io
 - **Version Control:** Git & GitHub
 
 ---
