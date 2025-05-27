@@ -1,7 +1,7 @@
 # 📝 Multiuser Blog App
 
 ## 📌 Project Overview
-The **Multiuser Blog App** is a full-stack web application where users can register, authenticate via Google, and create, edit, delete, or manage blog posts. It features role-based access, real-time updates, and a modern UI—highlighting skills in MERN stack development and authentication systems.
+The **Multiuser Blog App** is a full-stack web application where users can register, authenticate via Google, and create, edit, delete, or manage blog posts. It features role-based access, real-time updates, and a modern UI, highlighting skills in MERN stack development and authentication systems.
 
 ---
 
