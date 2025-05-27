@@ -38,10 +38,6 @@ This project demonstrates proficiency in modern web development technologies, ba
 /routes # API endpoints
 /middleware # Auth & error handling
 
-yaml
-Copy
-Edit
-
 ---
 
 
