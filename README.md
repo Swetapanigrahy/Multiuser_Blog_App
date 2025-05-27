@@ -9,7 +9,7 @@ The **Multiuser Blog App** is a full-stack web application where users can regis
 - **Frontend:** React.js, Tailwind CSS, Redux Toolkit
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Authentication:**  Google OAuth and JWT(JSON Web Tokens), bcrypt
+- **Authentication:** JWT(JSON Web Tokens), bcrypt and Google OAuth 
 - **Version Control:** Git & GitHub
 
 ---
