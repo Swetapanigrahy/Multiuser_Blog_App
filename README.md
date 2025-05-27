@@ -27,7 +27,7 @@ This project demonstrates proficiency in modern web development technologies, ba
 - Real-time updates for collaborative blogging.
 - Comprehensive error handling and input validation.
 - Future-ready structure for adding comments, likes, and notifications.
-- Easy deployment and scalability.
+
 
 ---
 
