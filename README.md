@@ -85,7 +85,7 @@ Follow these steps to set up and run the Multiuser Blog App on your local machin
       cd backend
       npm run dev
       ```
-6. **Start the frontend client:**
+- **Start the frontend client:**
       ```bash
     cd frontend
     npm run dev
