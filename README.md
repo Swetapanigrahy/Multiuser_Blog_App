@@ -11,13 +11,13 @@ This project demonstrates proficiency in modern web development technologies, ba
 - **Frontend:** React.js, Tailwind CSS, Redux Toolkit
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Authentication:** JWT (JSON Web Tokens), bcrypt
+- **Authentication:**  Google OAuth and JWT(JSON Web Tokens), bcrypt
 - **Version Control:** Git & GitHub
 
 ---
 
 ## ✨ Key Features
-- Secure user registration and login with JWT authentication.
+- Secure login using Google OAuth alongside JWT-based authentication.
 - Personalized dashboards for each user.
 - Create, edit, delete, and view blog posts.
 - Responsive and intuitive user interface.
