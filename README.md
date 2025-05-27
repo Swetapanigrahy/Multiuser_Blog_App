@@ -1,4 +1,4 @@
-# 🚀 Multiuser Blog App
+# 📝 Multiuser Blog App
 
 ## 📌 Project Overview
 The **Multiuser Blog App** is a full-stack web application that allows multiple users to register, create, edit, and share blog posts in a collaborative environment. It supports authentication, user roles, real-time updates, and an intuitive user interface for seamless blogging and content management.
