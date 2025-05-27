@@ -18,14 +18,16 @@ This project demonstrates proficiency in modern web development technologies, ba
 ---
 
 ## ✨ Key Features
-- User Registration & Login with secure authentication using JWT.
-- Multi-user support with personalized dashboards.
+- Secure user registration and login with JWT authentication.
+- Personalized dashboards for each user.
 - Create, edit, delete, and view blog posts.
-- Responsive and clean UI for an engaging user experience.
-- RESTful API design ensuring scalable backend architecture.
-- Role-based access control (if implemented).
-- Real-time updates or notifications (if implemented).
-- Error handling and validation for robust performance.
+- Responsive and intuitive user interface.
+- RESTful API architecture for efficient data handling.
+- Role-based access control for different user permissions.
+- Real-time updates for collaborative blogging.
+- Comprehensive error handling and input validation.
+- Future-ready structure for adding comments, likes, and notifications.
+- Easy deployment and scalability.
 
 ---
 
