@@ -65,9 +65,10 @@ Follow these steps to set up and run the Multiuser Blog App on your local machin
     cd backend
     npm install
     ```
+
 3. **Install Frontend Dependencies**
     ```bash
-    cd frontend
+    cd ../frontend
     npm install
     ```
 
@@ -82,16 +83,16 @@ Follow these steps to set up and run the Multiuser Blog App on your local machin
 5. **Run the Application**
     - **Start the backend server:**
       ```bash
-      cd backend
+      cd ../backend
       npm run dev
       ```
-   - **Start the frontend client:**
+    - **Start the frontend client:**
       ```bash
-    cd frontend
-    npm run dev
-    ```
+      cd ../frontend
+      npm run dev
+      ```
 
-    6. **Access the App**
-        - Open your browser and go to [http://localhost:3000](http://localhost:3000)
+6. **Access the App**
+    - Open your browser and go to [http://localhost:3000](http://localhost:3000)
 
 
