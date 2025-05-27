@@ -50,8 +50,8 @@ Edit
 Follow these steps to set up and run the Multiuser Blog App on your local machine:
 
 ### Prerequisites
-- **Node.js**(v14+)
-- **MongoDB**(local or MongoDB Atlas)
+- **Node.js** (v14+)
+- **MongoDB** (local or MongoDB Atlas)
 - **Git**
 
 ### Steps
