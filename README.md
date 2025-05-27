@@ -91,5 +91,11 @@ Follow these steps to set up and run the Multiuser Blog App on your local machin
 
 6. **Access the App**
     - Open your browser and go to [http://localhost:3000](http://localhost:3000)
+      
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use, modify, and distribute this software in both personal and commercial projects, provided that the original license is included with any substantial portions of the software.
+
 
 
