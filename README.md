@@ -12,7 +12,6 @@ This project demonstrates proficiency in modern web development technologies, ba
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (Mongoose ODM)
 - **Authentication:** JWT (JSON Web Tokens), bcrypt
-- **Real-time:** Socket.io
 - **Version Control:** Git & GitHub
 
 ---
