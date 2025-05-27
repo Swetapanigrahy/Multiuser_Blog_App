@@ -15,7 +15,7 @@ The **Multiuser Blog App** is a full-stack web application where users can regis
 ---
 
 ## ✨ Key Features
-- Secure login using Google OAuth alongside JWT-based authentication.
+- Secure login using JWT-based authentication alongside Google OAuth.
 - Personalized dashboards for each user.
 - Create, edit, delete, and view blog posts.
 - Responsive and intuitive user interface.
@@ -72,9 +72,7 @@ Follow these steps to set up and run the Multiuser Blog App on your local machin
       ```env
       MONGO_URI=your_mongodb_connection_string
       JWT_SECRET=your_jwt_secret
-      GOOGLE_CLIENT_ID=your_google_client_id
-      GOOGLE_CLIENT_SECRET=your_google_client_secret
-      GOOGLE_CALLBACK_URL=http://localhost:5000/auth/google/callback
+      
       ```
 
 5. **Run the Application**
