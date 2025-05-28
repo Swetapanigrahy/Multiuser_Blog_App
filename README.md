@@ -15,13 +15,13 @@ The **Multiuser Blog App** is a full-stack web application where users can regis
 ---
 
 ## ✨ Key Features
-- Secure login using JWT-based authentication alongside Google OAuth.
+- Secure login using JWT-based authentication and Google OAuth.
 - Create, edit, delete, and view blog posts.
 - Responsive and intuitive user interface.
 - RESTful API architecture for efficient data handling.
 - Role-based access control for different user permissions.
-- Real-time updates for collaborative blogging.
-- Future-ready structure for adding comments, likes, and notifications.
+- Multiple theme support (Default, Blue, Green, Yellow) with dark mode.
+- Real-time commenting system and post search by title or tag.
 
 
 ---
