@@ -16,7 +16,6 @@ The **Multiuser Blog App** is a full-stack web application where users can regis
 
 ## ✨ Key Features
 - Secure login using JWT-based authentication alongside Google OAuth.
-- Personalized dashboards for each user.
 - Create, edit, delete, and view blog posts.
 - Responsive and intuitive user interface.
 - RESTful API architecture for efficient data handling.
